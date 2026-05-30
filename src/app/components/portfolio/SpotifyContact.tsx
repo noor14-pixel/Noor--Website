@@ -81,7 +81,7 @@ export function SpotifyContact() {
 
         <div className="text-center">
           <p className="text-[#b3b3b3] text-sm">
-            Lahore, Pakistan · Available for remote opportunities
+            Lahore, Pakistan
           </p>
         </div>
       </div>

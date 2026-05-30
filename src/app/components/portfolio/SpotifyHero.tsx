@@ -2,7 +2,7 @@ import { Play, Download } from "lucide-react";
 
 export function SpotifyHero() {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-b from-[#1ed760] to-[#0d0d0d] pt-[60px]">
+    <div className="relative overflow-hidden bg-gradient-to-b from-[#1ed760] to-[#0d0d0d] pt-16">
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-32">
         <div className="flex flex-col md:flex-row items-center md:items-end gap-6 md:gap-8">
           {/* Profile Image */}
@@ -66,7 +66,7 @@ export function SpotifyHero() {
       </div>
 
       {/* Gradient Overlay */}
-      <div className="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-[#0d0d0d] to-transparent pointer-events-none"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0d0d0d] to-transparent pointer-events-none"></div>
     </div>
   );
 }
