@@ -111,10 +111,10 @@ export function SpotifyProjects() {
               key={index}
               className="group relative bg-[#181818] hover:bg-[#282828] rounded-lg p-6 transition-all cursor-pointer"
             >
-              <div className="flex items-start gap-6">
+              <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
                 {/* Album Art */}
-                <div className={`w-32 h-32 rounded flex-shrink-0 bg-gradient-to-br ${project.color} flex items-center justify-center shadow-lg`}>
-                  <span className="text-white text-5xl font-black">{project.number}</span>
+                <div className={`w-24 h-24 sm:w-32 sm:h-32 rounded flex-shrink-0 self-center sm:self-start bg-gradient-to-br ${project.color} flex items-center justify-center shadow-lg`}>
+                  <span className="text-white text-3xl sm:text-5xl font-black">{project.number}</span>
                 </div>
 
                 {/* Project Info */}

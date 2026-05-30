@@ -35,7 +35,7 @@ export function SpotifyGitHub() {
   return (
     <div id="code" className="bg-[#121212] py-16">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex flex-wrap items-center justify-between gap-2 mb-8">
           <h2 className="text-white text-3xl font-bold">GitHub Projects</h2>
           <a
             href="https://github.com/noor14-pixel?tab=repositories"
