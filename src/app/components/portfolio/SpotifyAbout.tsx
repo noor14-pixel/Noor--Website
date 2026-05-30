@@ -41,7 +41,7 @@ export function SpotifyAbout() {
                 <span className="text-white font-semibold">Awards</span>
               </div>
               <p className="text-[#b3b3b3] text-sm">
-                25 Under 25 (Australian High Commission) · Dean's Honour List · Impact Hero 2025
+                25 Under 25 (Australian High Commission) · Dean's Honour List
               </p>
             </div>
           </div>
