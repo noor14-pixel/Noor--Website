@@ -17,17 +17,17 @@ const projects = [
   {
     number: "02",
     date: "Aug – Dec 2025",
-    title: "Discipline & Human Capital Formation",
-    context: "Senior Thesis · LUMS Economics · CGPA 3.9 Semester",
-    description: "A hybrid econometric–ML study examining how household disciplinary practices shape early childhood literacy and numeracy outcomes among 15,590 children in Punjab, using UNICEF MICS 2017–18 data.",
+    title: "Testing the Homogeneity Presumption in Composite Household Indicators",
+    context: "Senior Thesis · LUMS Economics · Child Discipline & Early Learning, Punjab",
+    description: "A measurement study testing whether the practices pooled into a composite household-behavior indicator relate to the outcome alike, using the 11-item child discipline module of UNICEF MICS Punjab 2017–18 (15,590 children aged 35–60 months).",
     highlights: [
-      "Constructed a composite Learning Index (0–3) from UNICEF ECDI indicators (Cronbach's α = 0.81); used ordered logit with average marginal effects",
-      "Ran Brant test for proportional odds violations; extended to Generalized Ordered Logit as robustness check",
-      "Trained 11 one-vs-rest Random Forest classifiers on disciplinary outcomes; applied SMOTE for class imbalance",
-      "Validated feature importance via permutation importance and LOCO ablation",
-      "Non-violent discipline reduced probability of zero learning skills by 3.9pp (p<0.01)"
+      "Proposed a joint, cluster-robust Wald test of coefficient equality needing only item-level data; applied it in an ordered logit for a 0–3 Learning Index from UNICEF ECDI indicators (α = 0.81)",
+      "Homogeneity rejected for the eight violent items (χ² = 35.87, p < 0.001), robust to survey weights, added controls and each literacy/numeracy item, but not within psychological aggression (p = 0.897)",
+      "Monte Carlo simulations showed near-nominal size and 63% power against a 0.2 gap between the two psychological items; differences are statistically clear but modest",
+      "Pooling conceals sign: explaining why a behavior was wrong is associated with a 3.9pp lower probability of no foundational skill, shouting with a 3.2pp higher one",
+      "Practices share no common antecedent profile: caregiver belief is positive for all eleven but a proportional profile is rejected (p < 0.001); exploratory Random Forests used only for ranking. Estimates are associational"
     ],
-    tags: ["Ordered Logit", "Random Forest", "SMOTE", "LOCO", "STATA", "scikit-learn", "UNICEF MICS"]
+    tags: ["Ordered Logit", "Wald Tests", "Measurement & Aggregation", "Monte Carlo", "Random Forest (exploratory)", "STATA", "Python", "UNICEF MICS"]
   },
   {
     number: "03",
