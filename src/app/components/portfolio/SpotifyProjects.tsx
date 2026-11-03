@@ -35,19 +35,19 @@ const projects = [
   },
   {
     number: "03",
-    title: "Discipline & Human Capital Formation",
-    artist: "Senior Thesis · LUMS Economics",
+    title: "Testing the Homogeneity Presumption in Composite Household Indicators",
+    artist: "Senior Thesis · LUMS Economics · Child Discipline & Early Learning, Punjab",
     duration: "Aug – Dec 2025",
-    description: "Hybrid econometric–ML study examining household disciplinary practices and early childhood literacy outcomes among 15,590 children using UNICEF MICS 2017–18 data.",
+    description: "Tests whether the practices pooled into a composite indicator relate to the outcome alike, using the 11-item child discipline module of UNICEF MICS Punjab 2017–18 (15,590 children aged 35–60 months).",
     tracks: [
-      "Constructed Learning Index (Cronbach's α = 0.81)",
-      "Ordered logit with average marginal effects",
-      "Random Forest classifiers with SMOTE for class imbalance",
-      "Non-violent discipline reduced zero learning skills by 3.9pp (p<0.01)"
+      "Joint, cluster-robust Wald test of coefficient equality in an ordered logit for a 0–3 Learning Index (α = 0.81)",
+      "Homogeneity rejected for the eight violent items (χ² = 35.87, p < 0.001), not within psychological aggression (p = 0.897)",
+      "Monte Carlo simulations: near-nominal size, 63% power against a 0.2 gap",
+      "Pooling hides sign: explaining why a behavior was wrong is associated with 3.9pp lower probability of no foundational skill; shouting with 3.2pp higher"
     ],
-    tags: ["Ordered Logit", "Random Forest", "SMOTE", "STATA", "scikit-learn"],
+    tags: ["Ordered Logit", "Wald Tests", "Measurement & Aggregation", "Monte Carlo", "Random Forest (exploratory)", "STATA", "Python"],
     color: "from-green-600 to-teal-600",
-    document: "/documents/Research_paper__1_.pdf"
+    document: "/documents/Noor_Syed_Homogeneity_Paper.pdf"
   },
   {
     number: "04",
